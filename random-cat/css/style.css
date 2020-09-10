@@ -1,0 +1,49 @@
+
+body {
+	padding: 15px;
+	font-size: 30px;
+	background: black;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.clear {
+	/* clear: left; */
+}
+
+div {
+	width:33% ;
+	float: left;
+	margin:0 ;
+	font-size: 20px ;
+	padding: 20px;
+	text-align: center;
+	font-family: avenir;
+	color: white;
+	transition: 0.4s ;
+}
+
+div:hover {
+	color: black ;
+	box-shadow: inset 0px 0px 0px 5px white;
+}
+
+h1 {
+	font-family: avenir ;
+	background: white ;
+	border-radius: 20px;
+	padding: 20px;
+	text-align: center;
+	transition: 0.4s ;
+}
+
+h1:hover {
+	color: white;
+	background-color: black;
+}
+
+div img{
+	width: 100%;
+}

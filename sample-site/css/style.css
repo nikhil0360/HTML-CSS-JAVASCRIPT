@@ -1,0 +1,187 @@
+/*
+
+Project Name: Cookie Monster
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org
+Developed @ One Month in NYC
+
+*/
+:root{
+--c1: #afc2b5ff;
+--c2: #8fa59fff;
+--c3: rgb(222,158,170) ;
+--c4: rgb(242,229,211);
+--c5: rgb(223,195,141);
+}
+/* variables */
+
+/* for clearing float */
+.clear {
+	clear: both ;
+}
+
+*{
+ box-sizing: border-box;
+ }
+
+body {
+	/* the follow is the code to have the image display as a full page */
+	/* background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; */
+	/* the next 3 lines are "browser prefixes",
+	they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+html, body {
+  height: 100%;
+	/* used for making background of a element 100% of the web browser */
+}
+
+.gist{
+	padding: 10px; 
+}
+
+#container_left {
+  color: black;
+	width: 30% ;
+	background-color: #a4afd6;
+	padding: 30px;
+	font-family: avenir;
+	float: left;
+	overflow : scroll;
+  border: 1px solid black;
+
+	height: 100%;
+}
+
+#container_left h1 {
+	font-size: 50px;
+	color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#container_left h2{
+	text-align: center;
+	font-size: 24px;
+	background-color: black;
+	color: white;
+	padding: 15px;
+	border-radius: 10px;
+  font-family: Lato;
+}
+
+#container_left p{
+	background-color: white;
+	padding: 10px;
+	transition-duration: 0.4s;
+}
+
+#container_left p:hover{
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+/* top center */
+
+#container_center {
+	float: left;
+	font-family: avenir;
+	width: 40% ;
+	background-color: black;
+	padding: 30px;
+	color: white;
+	overflow : scroll;
+  border: 1px solid black;
+
+	height: 100%;
+}
+
+#container_center img{
+	width:100%;
+}
+
+#container_center h2{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* top right */
+
+#container_right {
+	float: left;
+	font-family: avenir;
+	width: 30% ;
+	background-color: rgb(222 158 170);
+	color: black;
+	padding: 30px;
+	overflow : scroll;
+  border: 1px solid black;
+
+	height: 100%;
+}
+
+#container_right h2{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#container_right li{
+  margin: 2px;
+}
+
+.buttons{
+
+/* for buttons, while making responsive make sure to add here */
+
+}
+
+.button {
+	font-family: avenir;
+	background-color: var(--c3);
+  border: 1px solid black;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+	width: 100%;
+	float: left;
+	margin: 2px;
+}
+
+#github:hover {
+  background-color: black;
+  color: white;
+}
+
+#linkedin:hover {
+  background-color: #0072b1;
+  color: white;
+}
+
+#instagram:hover {
+  background-color: #8134A4;
+  color: white;
+}
+
+#dribbble:hover {
+  background-color: #EA4C89 ;
+  color: white;
+}
+
+#resume:hover {
+  background-color: #61892F;
+  color: white;
+}
+
+#mail:hover {
+  background-color: #B23121;
+	color: white;
+	}

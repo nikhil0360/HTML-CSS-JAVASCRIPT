@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Happy Hour App - How about a drink!?">
+		<meta name="keywords" content="happy hour, drink, beers">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Happy Hour</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+
+		<script>
+
+
+		document.write("<h1 id='colorchange'> Random meow </h1>") ;
+		var no = prompt("enter no. of colors required") ;
+
+		for (i = 0; i < no ; i++) {
+
+			var h = Math.floor(400*Math.random()) ;
+			var w = Math.floor(400*Math.random()) ;
+			var e = "<div> <img src='http://placekitten.com/g/" + w + "/" + h + "'>"  + "</div>" ;
+			var f = "<div class='clear'> </div> " ;
+			// console.log(e);
+			document.write(e) ;
+			// document.write(f) ;
+
+			}
+
+
+			function colorchange(){
+
+					var h1 = document.getElementById("colorchange") ;
+					var a = Math.floor(255*Math.random()) ;
+					var b = Math.floor(255*Math.random()) ;
+					var c = Math.floor(255*Math.random()) ;
+					var d = "rgb(" + a  + "," + b + "," + c + ")"
+					h1.style.backgroundColor = d ;
+				}
+
+				setInterval(colorchange, 2000) ;
+
+
+
+
+		</script>
+	</head>
+	<body>
+
+
+		<!-- PAGE CONTENT WILL BE PRINTED HERE -->
+	</body>
+</html>
